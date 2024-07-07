@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{43C3C5CE-E329-4467-9948-858C7C4A5300}|Currency\\Currency.csproj|solutionrelative:currency\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43C3C5CE-E329-4467-9948-858C7C4A5300}|Currency\\Currency.csproj|c:\\users\\stepan\\source\\repos\\currency\\currency\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{43C3C5CE-E329-4467-9948-858C7C4A5300}|Currency\\Currency.csproj|C:\\Users\\Stepan\\source\\repos\\Currency\\currency\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{43C3C5CE-E329-4467-9948-858C7C4A5300}|Currency\\Currency.csproj|solutionrelative:currency\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +32,7 @@
               "RelativeDocumentMoniker": "Currency\\Form1.cs",
               "ToolTip": "C:\\Users\\Stepan\\source\\repos\\Currency\\Currency\\Form1.cs",
               "RelativeToolTip": "Currency\\Form1.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAUwDoAAAAgAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T13:07:13.048Z",
               "EditorCaption": ""
@@ -42,8 +46,7 @@
               "ToolTip": "C:\\Users\\Stepan\\source\\repos\\Currency\\Currency\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "RelativeToolTip": "Currency\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T13:11:13.405Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "WhenOpened": "2024-07-06T13:11:13.405Z"
             }
           ]
         }
