@@ -32,7 +32,7 @@ namespace Currency
 
         private async Task GetExchangeRates()
         {
-            string apiKey = "9842cc0490474826a1c02d8eb0947ba6"; // Ваш API ключ
+            string apiKey = "YOUR API KEY"; // Г‚Г Гё API ГЄГ«ГѕГ·
             string url = $"https://openexchangerates.org/api/latest.json?app_id={apiKey}";
 
             try
@@ -48,17 +48,17 @@ namespace Currency
 
                 if (usdData != null && usdData.Rates != null)
                 {
-                    // Обновляем Label на форме
+                    // ГЋГЎГ­Г®ГўГ«ГїГҐГ¬ Label Г­Г  ГґГ®Г°Г¬ГҐ
                     label4.Text = $"USD to RUB: {usdData.Rates.RUB}";
                 }
                 else
                 {
-                    MessageBox.Show("Не удалось получить курсы валют.");
+                    MessageBox.Show("ГЌГҐ ГіГ¤Г Г«Г®Г±Гј ГЇГ®Г«ГіГ·ГЁГІГј ГЄГіГ°Г±Г» ГўГ Г«ГѕГІ.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка: {ex.Message}");
+                MessageBox.Show($"ГЋГёГЁГЎГЄГ : {ex.Message}");
             }
         }
     }
