@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hRvdK2Y3Mts=",
+  "dgSpecHash": "7hwcJ4NMsz8=",
   "success": true,
   "projectFilePath": "C:\\Users\\Stepan\\source\\repos\\Currency\\Currency\\Currency.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Stepan\\.nuget\\packages\\currencyapi\\1.0.2\\currencyapi.1.0.2.nupkg.sha512",
+    "C:\\Users\\Stepan\\.nuget\\packages\\restsharp\\111.3.0\\restsharp.111.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

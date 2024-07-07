@@ -14,3 +14,8 @@ C:\Users\Stepan\source\repos\Currency\Currency\obj\Debug\net8.0-windows\refint\C
 C:\Users\Stepan\source\repos\Currency\Currency\obj\Debug\net8.0-windows\Currency.pdb
 C:\Users\Stepan\source\repos\Currency\Currency\obj\Debug\net8.0-windows\Currency.genruntimeconfig.cache
 C:\Users\Stepan\source\repos\Currency\Currency\obj\Debug\net8.0-windows\ref\Currency.dll
+C:\Users\Stepan\source\repos\Currency\Currency\obj\Debug\net8.0-windows\Currency.sourcelink.json
+C:\Users\Stepan\source\repos\Currency\Currency\bin\Debug\net8.0-windows\currencyapi.dll
+C:\Users\Stepan\source\repos\Currency\Currency\obj\Debug\net8.0-windows\Currency.csproj.AssemblyReference.cache
+C:\Users\Stepan\source\repos\Currency\Currency\obj\Debug\net8.0-windows\Currency.csproj.Up2Date
+C:\Users\Stepan\source\repos\Currency\Currency\bin\Debug\net8.0-windows\RestSharp.dll

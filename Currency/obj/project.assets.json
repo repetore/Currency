@@ -1,11 +1,83 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "Currencyapi/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/currencyapi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/currencyapi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RestSharp/111.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Currencyapi/1.0.2": {
+      "sha512": "ocHS01vLyATFJhwe8T/QN9ccGS2412oOr1H9sWsPO9lIx/t9F8A2N5DDOVVa0RvRSLO/Rsqw0R/7RcMjKvXDVQ==",
+      "type": "package",
+      "path": "currencyapi/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "currencyapi-icon.png",
+        "currencyapi.1.0.2.nupkg.sha512",
+        "currencyapi.nuspec",
+        "lib/netstandard2.1/currencyapi.dll",
+        "lib/netstandard2.1/currencyapi.xml"
+      ]
+    },
+    "RestSharp/111.3.0": {
+      "sha512": "+cHtmb3I5efys4scOCo+pWRgJNkwyEI8p39d4VMTbCXpPwsDeGP6OJH+1m4xtYUAZttMp2s4yxagy3usl2X13g==",
+      "type": "package",
+      "path": "restsharp/111.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net471/RestSharp.dll",
+        "lib/net471/RestSharp.xml",
+        "lib/net48/RestSharp.dll",
+        "lib/net48/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/net7.0/RestSharp.dll",
+        "lib/net7.0/RestSharp.xml",
+        "lib/net8.0/RestSharp.dll",
+        "lib/net8.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.111.3.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "Currencyapi >= 1.0.2",
+      "RestSharp >= 111.3.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Stepan\\.nuget\\packages\\": {},
@@ -55,6 +127,16 @@
     "frameworks": {
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Currencyapi": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[111.3.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

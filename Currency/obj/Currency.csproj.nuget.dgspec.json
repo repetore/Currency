@@ -48,6 +48,16 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Currencyapi": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
