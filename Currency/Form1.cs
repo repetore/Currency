@@ -27,7 +27,9 @@ namespace Currency
 
         public class Rates
         {
-            public double RUB { get; set; }
+            public float RUB { get; set; }
+            public decimal BTC { get; set; }
+
         }
 
         private async Task GetExchangeRates()
@@ -50,6 +52,7 @@ namespace Currency
                 {
                     // Îáíîâëÿåì Label íà ôîðìå
                     label4.Text = $"USD to RUB: {usdData.Rates.RUB}";
+                    label5.Text = $"BTC to RUB: {1 / usdData.Rates.RUB * usdData.Rates.RUB}";
                 }
                 else
                 {
