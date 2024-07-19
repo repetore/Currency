@@ -38,6 +38,7 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            label6 = new Label();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -133,11 +134,21 @@
             label5.TabIndex = 8;
             label5.Text = "label5";
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(510, 225);
+            label6.Name = "label6";
+            label6.Size = new Size(50, 20);
+            label6.TabIndex = 9;
+            label6.Text = "label6";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(995, 450);
+            Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -169,5 +180,6 @@
         private Label label3;
         private Label label4;
         private Label label5;
+        private Label label6;
     }
 }
